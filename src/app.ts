@@ -10,9 +10,10 @@ import globalErrorHandler from './app/middleware/globalErrors';
 
 const app: Application = express();
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://electricity-frontend-swart.vercel.app',
     credentials: true
 }));
+
 app.use(cookieParser());
 
 // parsers

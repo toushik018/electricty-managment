@@ -11,7 +11,7 @@ const routes_1 = __importDefault(require("./app/routes"));
 const globalErrors_1 = __importDefault(require("./app/middleware/globalErrors"));
 const app = (0, express_1.default)();
 app.use((0, cors_1.default)({
-    origin: 'http://localhost:3000',
+    origin: 'https://electricity-frontend-swart.vercel.app',
     credentials: true
 }));
 app.use((0, cookie_parser_1.default)());
